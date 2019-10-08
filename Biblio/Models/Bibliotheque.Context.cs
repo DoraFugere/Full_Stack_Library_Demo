@@ -19,9 +19,7 @@ namespace Biblio.Models
             : base("name=LivresDBEntities")
         {
         }
-
     
-
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();
